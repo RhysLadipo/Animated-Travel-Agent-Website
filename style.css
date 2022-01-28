@@ -208,6 +208,7 @@ nav ul {
 .card h4,
 .card p {
   padding: 1rem;
+  line-height: 1.8;
 }
 
 .card-icon {
@@ -284,6 +285,11 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-between;
   align-items: center;
+}
+
+button:focus {
+  background: #25364b;
+  outline-style: solid;
 }
 
 /* Media Query */
